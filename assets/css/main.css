@@ -1367,6 +1367,9 @@ input, select, textarea {
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			background-size: cover;
+			background-position: center;
+			background-image:url('../../images/logo_thick_transparent.png');
 		}
 
 			#header .logo .icon:before {
