@@ -29,6 +29,43 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.pastel-group {
+    display: flex;
+    justify-content: space-between; /* Distribute space between images */
+    gap: 20px; /* Adjust the space between images as needed */
+}
+
+.pastel-group .image_no_blur {
+    flex: 1;
+    max-width: 50%; /* Ensure each image takes up half the available width */
+}
+
+.pastel-group img {
+    width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+
+
+.art-piece-small img {
+    max-width: 50%; /* Adjust the percentage as needed */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.art-piece-med img {
+    max-width: 80%; /* Adjust the percentage as needed */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.art-piece img {
+    max-width: 100%; /* Adjust the percentage as needed */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body {
 	line-height: 1;
 }
@@ -36,6 +73,7 @@ body {
 ol, ul {
 	list-style: none;
 }
+
 
 blockquote, q {
 	quotes: none;
